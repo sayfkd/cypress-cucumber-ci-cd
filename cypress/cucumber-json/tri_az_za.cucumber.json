@@ -1,0 +1,104 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Tri des produits sur la page des produits",
+    "line": 1,
+    "id": "tri-des-produits-sur-la-page-des-produits",
+    "tags": [],
+    "uri": "tri_az_za.feature",
+    "elements": [
+      {
+        "id": "tri-des-produits-sur-la-page-des-produits;tri-alphabétique-a-z",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Tri Alphabétique A-Z",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "je suis sur la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "je trie les produits par ordre alphabétique A-Z",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "les produits sont triés correctement par ordre alphabétique A-Z",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "tri-des-produits-sur-la-page-des-produits;tri-alphabétique-z-a",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Tri Alphabétique Z-A",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "je suis sur la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "je trie les produits par ordre alphabétique Z-A",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "les produits sont triés correctement par ordre alphabétique Z-A",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

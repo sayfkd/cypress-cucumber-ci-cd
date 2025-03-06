@@ -1,0 +1,222 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Card",
+    "line": 2,
+    "id": "card",
+    "tags": [
+      {
+        "name": "@Menu",
+        "line": 1
+      }
+    ],
+    "uri": "card.feature",
+    "elements": [
+      {
+        "id": "card;aller-au-panier",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "aller au panier",
+        "tags": [
+          {
+            "name": "@Menu",
+            "line": 1
+          },
+          {
+            "name": "@GoCart",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "passed",
+              "duration": 1347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "je clique sur le panier",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "je suis redirige vers la page du panier",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "card;verification-du-badge-du-panier-après-ajout-de-produits",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verification du badge du panier après ajout de produits",
+        "tags": [
+          {
+            "name": "@Menu",
+            "line": 1
+          },
+          {
+            "name": "@AddToCart",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "je clique sur le bouton Add to card du produit \"sauce-labs-backpack\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "je clique sur le bouton Add to card du produit \"sauce-labs-bike-light\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "le badge du panier affiche \"2\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "card;verification-des-produits-dans-le-panier",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verification des produits dans le panier",
+        "tags": [
+          {
+            "name": "@Menu",
+            "line": 1
+          },
+          {
+            "name": "@Cart",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "je suis redirigé vers la page des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "je clique sur le bouton Add to card du produit \"sauce-labs-backpack\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "je clique sur le bouton Add to card du produit \"sauce-labs-bike-light\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "je clique sur le Panier",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "je clique sur le bouton Remove des produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "le produit est supprime du panier",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

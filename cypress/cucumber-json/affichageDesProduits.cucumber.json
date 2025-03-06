@@ -1,0 +1,40 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Affichage des produits",
+    "line": 1,
+    "id": "affichage-des-produits",
+    "tags": [],
+    "uri": "affichageDesProduits.feature",
+    "elements": [
+      {
+        "id": "affichage-des-produits;vérifier-l'affichage-des-produits-après-connexion",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Vérifier l'affichage des produits après connexion",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "la liste des produits doit être affichée",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

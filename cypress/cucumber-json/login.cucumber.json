@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Authentification utilisateur sur SauceDemo",
+    "line": 1,
+    "id": "authentification-utilisateur-sur-saucedemo",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "authentification-utilisateur-sur-saucedemo;connexion-avec-un-utilisateur-valide-et-un-mot-de-passe-valide",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Connexion avec un utilisateur valide et un mot de passe valide",
+        "tags": [
+          {
+            "name": "@positif",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "l utilisateur est sur la page de connexion \"https://www.saucedemo.com/\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "il saisit le nom d utilisateur \"standard_user\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "il saisit le mot de passe \"secret_sauce\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "il clique sur le bouton de connexion",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "le menu du site doit être visible",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentification-utilisateur-sur-saucedemo;connexion-avec-un-utilisateur-valide-et-un-mot-de-passe-invalide",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Connexion avec un utilisateur valide et un mot de passe invalide",
+        "tags": [
+          {
+            "name": "@negatif",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "l utilisateur est sur la page de connexion \"https://www.saucedemo.com/\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "il saisit le nom d utilisateur \"standard_user\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "il saisit le mot de passe \"secret_sauce1\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "il clique sur le bouton de connexion",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "un message d erreur doit etre affiche",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "authentification-utilisateur-sur-saucedemo;connexion-avec-un-utilisateur-invalide-et-un-mot-de-passe-valide",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Connexion avec un utilisateur invalide et un mot de passe valide",
+        "tags": [
+          {
+            "name": "@negatif",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "l utilisateur est sur la page de connexion \"https://www.saucedemo.com/\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "il saisit le nom d utilisateur \"standard_user1\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "il saisit le mot de passe \"secret_sauce\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "il clique sur le bouton de connexion",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "un message d erreur doit etre affiche",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

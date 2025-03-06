@@ -41,13 +41,14 @@ pipeline {
                     }
                 sh testCommand
                 }
+                sh "node cucumber-report-generator.js "
             }
         }
     }
 
-    // post {
-    //     always {
-    //         junit 'results/**/*.xml'
-    //     }
-    // }
+    post {
+        always {
+            archiveArtifacts artifacts: 'rapports/**/*.*', followSymlinks: false        
+            }
+    }
 }

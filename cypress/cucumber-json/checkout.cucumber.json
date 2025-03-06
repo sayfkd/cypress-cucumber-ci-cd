@@ -1,0 +1,94 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Processus de checkout sur SauceDemo",
+    "line": 1,
+    "id": "processus-de-checkout-sur-saucedemo",
+    "tags": [],
+    "uri": "checkout.feature",
+    "elements": [
+      {
+        "id": "processus-de-checkout-sur-saucedemo;finaliser-une-commande-avec-succès",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Finaliser une commande avec succès",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "je clique sur un produit \"Sauce Labs Backpack\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "j'ajoute le produit au panier",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "je vais au panier",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "je clique sur le bouton checkout",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "je saisis mes informations personnelles \"test\", \"test\", \"75\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "je finalise la commande",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "un message de confirmation s'affiche",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

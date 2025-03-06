@@ -1,0 +1,113 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Ajout et suppression des produits de le panier",
+    "line": 1,
+    "id": "ajout-et-suppression-des-produits-de-le-panier",
+    "tags": [],
+    "uri": "ajoutSuppressionPanier.feature",
+    "elements": [
+      {
+        "id": "ajout-et-suppression-des-produits-de-le-panier;ajouter-des-produits-dans-le-panier",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Ajouter des produits dans le panier",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "je clique sur un bouton add to cart pour \"2\" produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "je clique sur le bouton panier",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "je retrouve les memes produits dans le panier",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ajout-et-suppression-des-produits-de-le-panier;ajouter-puis-supprimer-des-produits-dans-le-panier",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Ajouter puis supprimer des produits dans le panier",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "je clique sur un bouton add to cart pour \"2\" produits",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "je clique sur le bouton remove pour \"1\" produit",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "je clique sur le bouton panier",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "je retrouve les memes produits dans le panier",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
