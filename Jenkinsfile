@@ -36,7 +36,7 @@ pipeline {
              steps {
                 script{
                 def testCommand = "npx cypress run"
-                if (params.NAME?.trim()) {
+                if (params.TAG?.trim()) {
                         testCommand += " --env TAGS='${params.TAG}'"
                     }
                 sh testCommand
