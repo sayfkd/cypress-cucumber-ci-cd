@@ -6,10 +6,10 @@ pipeline {
         }
     }
 
-    // parameters {
-    //     choice(name: 'TAG', choices: ['smoke', 'e2e', 'sanity', 'regression', 'login'], description: 'TAG des tests Cypress')
-    //     string(name: 'NAME', defaultValue: '', description: 'Nom du test')
-    // }
+    parameters {
+        // choice(name: 'TAG', choices: ['smoke', 'e2e', 'sanity', 'regression', 'login'], description: 'TAG des tests Cypress')
+        string(name: 'TAG', defaultValue: '@', description: 'TAG du test')
+    }
 
     stages {
         stage('Vérifier la version de npm') {
@@ -33,9 +33,12 @@ pipeline {
             //         sh testCommand
             //     }
             // }
-
              steps {
-                sh 'npx cypress run'
+                def testCommand = "npx cypress run"
+                if (params.NAME?.trim()) {
+                        testCommand += " --env TAGS='${params.TAG}'"
+                    }
+                sh testCommand
             }
         }
     }
